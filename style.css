@@ -91,6 +91,7 @@ p {
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
+   /* font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
 
 body.boxed {
@@ -159,7 +160,8 @@ h6 {
 body,
 li,
 p {
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #4e3e3e;
     font-weight: normal !important;
 }
 
@@ -176,8 +178,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "poppinssemibold", sans-serif;
+   /* font-family: "poppinssemibold", sans-serif;*/
     font-weight: normal !important;
+    font-weight: 650 !important;
 }
 
 .page-title h1,
@@ -197,8 +200,11 @@ h6 {
 .stickyfooter li,
 .btn-primary,
 .navbar-default .navbar-nav > li > a {
-    font-family: "poppinsmedium", sans-serif;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
     font-weight: normal !important;
+    color: black;
+   
 }
 
 .freelancer-list .badge,
@@ -214,7 +220,9 @@ small,
 .job-meta p,
 .company-links li a,
 .job-tab small {
-    font-family: 'poppinslight';
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   
+    color: #4e3e3e;
     font-weight: normal !important;
 }
 
@@ -273,8 +281,8 @@ small,
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #203143;
-    font-size: 14px;
+    color: black;
+    font-size: 16px;
     text-transform: none;
 }
 
@@ -681,6 +689,8 @@ h5.color3 {
 }
 
 .section-title {
+        font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: black;
     display: block;
     position: relative;
     margin-bottom: 60px;
@@ -698,9 +708,13 @@ h5.color3 {
     font-size: 34px;
     margin: 0;
     text-transform: uppercase;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: black;
 }
 
 .about-widget h5 {
+        font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: black;
     padding: 0 0 20px;
     font-size: 21px;
 }
